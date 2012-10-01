@@ -1,0 +1,2031 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DeMomentSomTres v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-06-18 12:36:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:225
+#@ demomentsomtres
+msgid "Primary Navigation"
+msgstr "Navegació principal"
+
+#. translators: header image description
+#: functions.php:265
+#@ demomentsomtres
+msgid "Berries"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:271
+#@ demomentsomtres
+msgid "Cherry Blossoms"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:277
+#@ demomentsomtres
+msgid "Concave"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:283
+#@ demomentsomtres
+msgid "Fern"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:289
+#@ demomentsomtres
+msgid "Forest Floor"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:295
+#@ demomentsomtres
+msgid "Inkwell"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:301
+#@ demomentsomtres
+msgid "Path"
+msgstr ""
+
+#. translators: header image description
+#: functions.php:307
+#@ demomentsomtres
+msgid "Sunset"
+msgstr ""
+
+#: functions.php:367
+#: loop-attachment.php:104
+#: loop.php:115
+#: loop.php:144
+#@ demomentsomtres
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:449
+#@ demomentsomtres
+msgid "Posts Widget Area"
+msgstr ""
+
+#: functions.php:451
+#@ demomentsomtres
+msgid "Shown only in Blog Posts, Archives, Categories, etc."
+msgstr ""
+
+#: functions.php:461
+#@ demomentsomtres
+msgid "Pages Widget Area"
+msgstr ""
+
+#: functions.php:463
+#@ demomentsomtres
+msgid "Shown only in Pages"
+msgstr ""
+
+#: functions.php:472
+#@ demomentsomtres
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions.php:474
+#@ demomentsomtres
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:483
+#@ demomentsomtres
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:485
+#@ demomentsomtres
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:494
+#@ demomentsomtres
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:496
+#@ demomentsomtres
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions.php:505
+#@ demomentsomtres
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:507
+#@ demomentsomtres
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: functions.php:517
+#@ demomentsomtres
+msgid "Forum Sidebar"
+msgstr ""
+
+#: functions.php:519
+#@ demomentsomtres
+msgid "Sidebar displayed in forum"
+msgstr ""
+
+#: functions.php:530
+#@ demomentsomtres
+msgid "Jigoshop Sidebar"
+msgstr ""
+
+#: functions.php:532
+#@ demomentsomtres
+msgid "Sidebar displayed in Jigoshop pages"
+msgstr ""
+
+#: functions.php:556
+#@ demomentsomtres
+msgid "Comment is awaiting moderation"
+msgstr "Comentari pendent de moderació"
+
+#: functions.php:558
+#@ demomentsomtres
+msgid "By"
+msgstr ""
+
+#: functions.php:560
+#@ demomentsomtres
+msgid "Edit comment"
+msgstr ""
+
+#: functions.php:561
+#@ demomentsomtres
+msgid "Reply"
+msgstr ""
+
+#: functions.php:579
+#: loop-attachment.php:36
+#, php-format
+#@ demomentsomtres
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:597
+#, php-format
+#@ demomentsomtres
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:599
+#, php-format
+#@ demomentsomtres
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:601
+#, php-format
+#@ demomentsomtres
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions.php:1154
+#@ bbpress
+msgid "favorites"
+msgstr ""
+
+#: functions.php:1155
+#@ bbpress
+msgid "?"
+msgstr ""
+
+#: functions.php:1156
+#, php-format
+#@ bbpress
+msgid "This topic is one of your %favLinkYes% [%favDel%]"
+msgstr ""
+
+#: functions.php:1157
+#, php-format
+#@ bbpress
+msgid "%favAdd% (%favLinkNo%)"
+msgstr ""
+
+#: functions.php:1158
+#@ bbpress
+msgid "&times;"
+msgstr ""
+
+#: functions.php:1159
+#@ bbpress
+msgid "Add this topic to your favorites"
+msgstr ""
+
+#: functions.php:1168
+#@ bbpress
+msgid "Subscribe"
+msgstr ""
+
+#: functions.php:1169
+#@ bbpress
+msgid "Unsubscribe"
+msgstr ""
+
+#: header.php:42
+#, php-format
+#@ demomentsomtres
+msgid "Page %s"
+msgstr ""
+
+#: 404.php:13
+#: loop.php:33
+#@ demomentsomtres
+msgid "Not Found"
+msgstr "No s'ha trobat"
+
+#: 404.php:14
+#@ demomentsomtres
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: admin/options-framework.php:227
+#@ demomentsomtres
+msgid "Save Options"
+msgstr ""
+
+#: admin/options-framework.php:228
+#@ demomentsomtres
+msgid "Restore Defaults"
+msgstr ""
+
+#: admin/options-framework.php:228
+#@ demomentsomtres
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/options-framework.php:260
+#@ demomentsomtres
+msgid "Default options restored."
+msgstr ""
+
+#: admin/options-framework.php:301
+#@ demomentsomtres
+msgid "Options saved."
+msgstr ""
+
+#: admin/options-framework.php:359
+#@ demomentsomtres
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:26
+#@ demomentsomtres
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:128
+#@ demomentsomtres
+msgid "Upload"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:151
+#@ demomentsomtres
+msgid "View File"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+#@ demomentsomtres
+msgid "Gallery"
+msgstr "Galeria"
+
+#: admin/options-medialibrary-uploader.php:288
+#@ demomentsomtres
+msgid "Previously Uploaded"
+msgstr ""
+
+#: archive-product.php:9
+#@ jigoshop
+msgid "Search Results:"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+#@ demomentsomtres
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+#@ demomentsomtres
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+#@ demomentsomtres
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:35
+#@ demomentsomtres
+msgid "Blog Archives"
+msgstr ""
+
+#: author.php:27
+#, php-format
+#@ demomentsomtres
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:37
+#: bbpress/user-details.php:31
+#: loop-single.php:39
+#, php-format
+#@ demomentsomtres
+#@ bbpress
+msgid "About %s"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:15
+#@ bbpress
+msgid "Creator"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:18
+#: bbpress/loop-topics.php:17
+#@ bbpress
+msgid "Topic"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:43
+#: bbpress/loop-replies.php:64
+#, php-format
+#@ bbpress
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: bbpress/feedback-logged-in.php:13
+#@ bbpress
+msgid "You are already logged in."
+msgstr ""
+
+#: bbpress/feedback-no-access.php:13
+#@ bbpress
+msgid "Private"
+msgstr ""
+
+#: bbpress/feedback-no-access.php:16
+#@ bbpress
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: bbpress/feedback-no-forums.php:13
+#@ bbpress
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-topics.php:13
+#@ bbpress
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: bbpress/form-anonymous.php:15
+#@ bbpress
+msgid "Author Information"
+msgstr ""
+
+#: bbpress/form-anonymous.php:15
+#@ bbpress
+msgid "Your information:"
+msgstr ""
+
+#: bbpress/form-anonymous.php:17
+#@ bbpress
+msgid "Name (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:22
+#@ bbpress
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:27
+#@ bbpress
+msgid "Website:"
+msgstr ""
+
+#: bbpress/form-protected.php:13
+#@ bbpress
+msgid "Protected"
+msgstr ""
+
+#: bbpress/form-reply.php:24
+#, php-format
+#@ bbpress
+msgid "Reply To: %s"
+msgstr ""
+
+#: bbpress/form-reply.php:29
+#@ bbpress
+msgid "This topic is marked as closed to new replies, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-reply.php:37
+#: bbpress/form-topic.php:54
+#@ bbpress
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-reply.php:53
+#@ bbpress
+msgid "Reply:"
+msgstr ""
+
+#: bbpress/form-reply.php:60
+#: bbpress/form-topic.php:81
+#@ bbpress
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: bbpress/form-reply.php:67
+#@ bbpress
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:79
+#: bbpress/form-topic.php:120
+#@ bbpress
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:83
+#: bbpress/form-topic.php:124
+#@ bbpress
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:94
+#: bbpress/form-topic.php:134
+#@ bbpress
+msgid "Revision"
+msgstr ""
+
+#: bbpress/form-reply.php:97
+#: bbpress/form-topic.php:137
+#@ bbpress
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:101
+#: bbpress/form-topic.php:141
+#@ bbpress
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:113
+#: bbpress/form-topic-merge.php:88
+#: bbpress/form-topic-split.php:92
+#: bbpress/form-topic.php:149
+#@ bbpress
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-reply.php:127
+#, php-format
+#@ bbpress
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:135
+#: bbpress/form-topic.php:163
+#, php-format
+#@ bbpress
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:143
+#@ bbpress
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:143
+#@ bbpress
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:22
+#, php-format
+#@ bbpress
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:27
+#@ bbpress
+msgid "Select the topic to merge this one into. The destination topic will remain the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:28
+#@ bbpress
+msgid "To keep this topic as the lead, go to the other topic and use the merge tool from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:32
+#@ bbpress
+msgid "All replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted. If the destination topic was created after this one, it's post date will be updated to second earlier than this one."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:36
+#@ bbpress
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:40
+#@ bbpress
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:49
+#@ bbpress
+msgid "No topics were found to which the topic could be merged to!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:55
+#@ bbpress
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:63
+#: bbpress/form-topic-split.php:67
+#@ bbpress
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:70
+#@ bbpress
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:75
+#@ bbpress
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:78
+#@ bbpress
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:84
+#: bbpress/form-topic-split.php:88
+#@ bbpress
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:101
+#: bbpress/form-topic-split.php:105
+#@ bbpress
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:101
+#: bbpress/form-topic-split.php:105
+#@ bbpress
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:22
+#, php-format
+#@ bbpress
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:27
+#@ bbpress
+msgid "When you split a topic, you are slicing it in half starting with the reply you just selected. Choose to use that reply as a new topic with a new title, or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:31
+#@ bbpress
+msgid "If you use the existing topic option, replies within both topics will be merged chronologically. The order of the merged replies is based on the time and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:35
+#@ bbpress
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:39
+#, php-format
+#@ bbpress
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:40
+#, php-format
+#@ bbpress
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:47
+#@ bbpress
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:56
+#@ bbpress
+msgid "No other topics found!"
+msgstr ""
+
+#: bbpress/form-topic-split.php:74
+#@ bbpress
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:79
+#@ bbpress
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:82
+#@ bbpress
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:18
+#, php-format
+#@ bbpress
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-tag.php:22
+#@ bbpress
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:25
+#@ bbpress
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:29
+#@ bbpress
+msgid "Changing the slug affects its permalink. Any links to the old slug will stop working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:35
+#@ bbpress
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:40
+#@ bbpress
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:45
+#@ bbpress
+msgid "Update"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:59
+#: bbpress/form-topic-tag.php:73
+#@ bbpress
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:62
+#@ bbpress
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:68
+#@ bbpress
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:74
+#, php-format
+#@ bbpress
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:89
+#: bbpress/form-topic-tag.php:102
+#@ bbpress
+msgid "Delete"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:92
+#@ bbpress
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:95
+#@ bbpress
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:96
+#@ bbpress
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:103
+#, php-format
+#@ bbpress
+msgid "Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:36
+#, php-format
+#@ bbpress
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:38
+#, php-format
+#@ bbpress
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:38
+#@ bbpress
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:46
+#@ bbpress
+msgid "This forum is marked as closed to new topics, however your posting capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:69
+#, php-format
+#@ bbpress
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:74
+#@ bbpress
+msgid "Topic Description:"
+msgstr ""
+
+#: bbpress/form-topic.php:88
+#@ bbpress
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:95
+#@ bbpress
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:105
+#@ bbpress
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:171
+#@ bbpress
+msgid "You cannot create new topics at this time."
+msgstr ""
+
+#: bbpress/form-topic.php:171
+#@ bbpress
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:14
+#: bbpress/form-user-edit.php:19
+#: comments.php:68
+#: single-product-reviews.php:76
+#@ bbpress
+#@ demomentsomtres
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:24
+#@ bbpress
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:29
+#@ bbpress
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:34
+#@ bbpress
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:39
+#@ bbpress
+msgid "Display name publicly as"
+msgstr ""
+
+#: bbpress/form-user-edit.php:49
+#: bbpress/form-user-edit.php:52
+#@ bbpress
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:57
+#: comments.php:78
+#@ bbpress
+#@ demomentsomtres
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74
+#: bbpress/form-user-edit.php:77
+#@ bbpress
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74
+#: bbpress/form-user-edit.php:77
+#@ bbpress
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:82
+#@ bbpress
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:84
+#@ bbpress
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr ""
+
+#: bbpress/form-user-edit.php:91
+#: bbpress/form-user-edit.php:94
+#@ demomentsomtres
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:99
+#: bbpress/form-user-login.php:17
+#: bbpress/form-user-register.php:23
+#: jigoshop_functions.php:549
+#@ bbpress
+#@ jigoshop
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:101
+#@ bbpress
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: bbpress/form-user-edit.php:105
+#: bbpress/form-user-register.php:28
+#: comments.php:73
+#: single-product-reviews.php:78
+#@ bbpress
+#@ demomentsomtres
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:117
+#, php-format
+#@ bbpress
+msgid "There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
+msgstr ""
+
+#: bbpress/form-user-edit.php:126
+#@ bbpress
+msgid "New Password"
+msgstr ""
+
+#: bbpress/form-user-edit.php:129
+#@ bbpress
+msgid "If you would like to change the password type a new one. Otherwise leave this blank."
+msgstr ""
+
+#: bbpress/form-user-edit.php:132
+#@ bbpress
+msgid "Type your new password again."
+msgstr ""
+
+#: bbpress/form-user-edit.php:135
+#@ bbpress
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: bbpress/form-user-edit.php:142
+#@ bbpress
+msgid "Role:"
+msgstr ""
+
+#: bbpress/form-user-edit.php:153
+#@ bbpress
+msgid "Super Admin"
+msgstr ""
+
+#: bbpress/form-user-edit.php:156
+#@ bbpress
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:169
+#@ bbpress
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:174
+#@ bbpress
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:174
+#@ bbpress
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:14
+#: bbpress/form-user-login.php:35
+#@ bbpress
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:22
+#: jigoshop_functions.php:553
+#@ bbpress
+#@ jigoshop
+msgid "Password"
+msgstr ""
+
+#: bbpress/form-user-login.php:28
+#@ bbpress
+msgid "Keep me signed in"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:14
+#@ bbpress
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:18
+#@ bbpress
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:27
+#@ bbpress
+msgid "Reset my password"
+msgstr ""
+
+#: bbpress/form-user-register.php:14
+#@ bbpress
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:17
+#@ bbpress
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:18
+#@ bbpress
+msgid "We use your email address to email you a secure password and verify your account."
+msgstr ""
+
+#: bbpress/form-user-register.php:36
+#@ bbpress
+msgid "Register"
+msgstr ""
+
+#: bbpress/loop-forums.php:18
+#@ bbpress
+msgid "Forum"
+msgstr ""
+
+#: bbpress/loop-forums.php:19
+#: page-forum-statistics.php:40
+#@ bbpress
+msgid "Topics"
+msgstr ""
+
+#: bbpress/loop-forums.php:20
+#: bbpress/loop-replies.php:30
+#: bbpress/loop-replies.php:49
+#: bbpress/loop-topics.php:19
+#: page-forum-statistics.php:45
+#: single-reply.php:26
+#@ bbpress
+msgid "Replies"
+msgstr ""
+
+#: bbpress/loop-forums.php:20
+#: bbpress/loop-replies.php:22
+#: bbpress/loop-replies.php:45
+#: bbpress/loop-topics.php:19
+#@ bbpress
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:21
+#: bbpress/loop-topics.php:20
+#@ bbpress
+msgid "Freshness"
+msgstr ""
+
+#: bbpress/loop-replies.php:17
+#: bbpress/loop-replies.php:40
+#: single-reply.php:25
+#@ bbpress
+msgid "Author"
+msgstr ""
+
+#: bbpress/loop-topics.php:18
+#@ bbpress
+msgid "Voices"
+msgstr ""
+
+#: bbpress/loop-topics.php:21
+#@ bbpress
+msgid "Remove"
+msgstr ""
+
+#: bbpress/loop-topics.php:42
+#, php-format
+#@ bbpress
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-topics.php:46
+#, php-format
+#@ bbpress
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/user-details.php:14
+#, php-format
+#@ bbpress
+msgid "Profile: %s"
+msgstr ""
+
+#: bbpress/user-details.php:18
+#, php-format
+#@ bbpress
+msgid "Edit Profile of User %s"
+msgstr ""
+
+#: bbpress/user-details.php:18
+#@ bbpress
+msgid "(Edit)"
+msgstr ""
+
+#: bbpress/user-favorites.php:16
+#@ bbpress
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:27
+#@ bbpress
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: bbpress/user-favorites.php:27
+#@ bbpress
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:20
+#@ bbpress
+msgid "Subscribed Forum Topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:31
+#@ bbpress
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:31
+#@ bbpress
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:16
+#@ bbpress
+msgid "Forum Topics Created"
+msgstr ""
+
+#: bbpress/user-topics-created.php:27
+#@ bbpress
+msgid "You have not created any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:27
+#@ bbpress
+msgid "This user has not created any topics."
+msgstr ""
+
+#: category.php:16
+#, php-format
+#@ demomentsomtres
+msgid "Category Archives: %s"
+msgstr ""
+
+#: checkout/form.php:19
+#@ jigoshop
+msgid "Your order"
+msgstr ""
+
+#: checkout/pay_for_order.php:7
+#: checkout/review_order.php:40
+#@ jigoshop
+msgid "Product"
+msgstr ""
+
+#: checkout/pay_for_order.php:8
+#: checkout/review_order.php:41
+#@ jigoshop
+msgid "Qty"
+msgstr ""
+
+#: checkout/pay_for_order.php:9
+#: checkout/review_order.php:42
+#@ jigoshop
+msgid "Totals"
+msgstr ""
+
+#: checkout/pay_for_order.php:14
+#: checkout/review_order.php:47
+#@ jigoshop
+msgid "Subtotal"
+msgstr ""
+
+#: checkout/pay_for_order.php:18
+#: checkout/review_order.php:52
+#@ jigoshop
+msgid "Shipping"
+msgstr ""
+
+#: checkout/pay_for_order.php:22
+#: checkout/review_order.php:98
+#@ jigoshop
+msgid "Tax"
+msgstr ""
+
+#: checkout/pay_for_order.php:26
+#: checkout/review_order.php:103
+#@ jigoshop
+msgid "Discount"
+msgstr ""
+
+#: checkout/pay_for_order.php:30
+#: checkout/review_order.php:107
+#@ jigoshop
+msgid "Grand Total"
+msgstr ""
+
+#: checkout/pay_for_order.php:75
+#@ jigoshop
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: checkout/pay_for_order.php:84
+#@ jigoshop
+msgid "Pay for order"
+msgstr ""
+
+#: checkout/review_order.php:19
+#@ jigoshop
+msgid "Sorry, your session has expired."
+msgstr ""
+
+#: checkout/review_order.php:19
+#@ jigoshop
+msgid "Return to homepage &rarr;"
+msgstr ""
+
+#: checkout/review_order.php:72
+#@ jigoshop
+msgid " (ex. tax)"
+msgstr ""
+
+#: checkout/review_order.php:74
+#@ jigoshop
+msgid "Free"
+msgstr ""
+
+#: checkout/review_order.php:86
+#@ jigoshop
+msgid "Please fill in your details above to see available shipping methods."
+msgstr ""
+
+#: checkout/review_order.php:88
+#@ jigoshop
+msgid "Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: checkout/review_order.php:156
+#@ jigoshop
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: checkout/review_order.php:158
+#@ jigoshop
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: checkout/review_order.php:168
+#@ jigoshop
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: checkout/review_order.php:168
+#@ jigoshop
+msgid "Update totals"
+msgstr ""
+
+#: checkout/review_order.php:171
+#@ jigoshop
+msgid "Place order"
+msgstr ""
+
+#: checkout/review_order.php:175
+#@ jigoshop
+msgid "I accept the"
+msgstr ""
+
+#: checkout/review_order.php:175
+#@ jigoshop
+msgid "terms &amp; conditions"
+msgstr ""
+
+#: comments.php:12
+#@ demomentsomtres
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+#, php-format
+#@ demomentsomtres
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49
+#@ demomentsomtres
+msgid "Leave a reply"
+msgstr "Deixa un comentari"
+
+#: comments.php:56
+#@ demomentsomtres
+msgid "You must be logged in to post a comment."
+msgstr "T'has de connectar per deixar un comentari"
+
+#: comments.php:63
+#@ demomentsomtres
+msgid "Logged in as:"
+msgstr "El teu usuari és:"
+
+#: comments.php:63
+#@ demomentsomtres
+msgid "Log out"
+msgstr "Desconnecta't"
+
+#: comments.php:68
+#@ demomentsomtres
+msgid "required"
+msgstr ""
+
+#: comments.php:73
+#@ demomentsomtres
+msgid "(will not be published)"
+msgstr ""
+
+#: comments.php:73
+#@ demomentsomtres
+msgid "(required)"
+msgstr ""
+
+#: comments.php:88
+#@ demomentsomtres
+msgid "Submit comment"
+msgstr "Envia el comentari"
+
+#: functions.php:578
+#, php-format
+#@ demomentsomtres
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr ""
+
+#: jigoshop_functions.php:90
+#@ jigoshop
+msgid "Sale!"
+msgstr ""
+
+#: jigoshop_functions.php:110
+#: jigoshop_functions.php:282
+#: jigoshop_functions.php:297
+#: jigoshop_functions.php:325
+#@ jigoshop
+msgid "Add to cart"
+msgstr ""
+
+#: jigoshop_functions.php:353
+#: single-product-reviews.php:51
+#@ jigoshop
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: jigoshop_functions.php:354
+#: single-product-reviews.php:50
+#@ jigoshop
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: jigoshop_functions.php:368
+#@ jigoshop
+msgid "Description"
+msgstr ""
+
+#: jigoshop_functions.php:377
+#: jigoshop_functions.php:404
+#@ jigoshop
+msgid "Additional Information"
+msgstr ""
+
+#: jigoshop_functions.php:384
+#: single-product-reviews.php:35
+#@ jigoshop
+msgid "Reviews"
+msgstr ""
+
+#: jigoshop_functions.php:395
+#@ jigoshop
+msgid "Product Description"
+msgstr ""
+
+#: jigoshop_functions.php:483
+#@ jigoshop
+msgid "Calculate Shipping"
+msgstr ""
+
+#: jigoshop_functions.php:487
+#@ jigoshop
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: jigoshop_functions.php:508
+#@ jigoshop
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: jigoshop_functions.php:520
+#@ jigoshop
+msgid "state"
+msgstr ""
+
+#: jigoshop_functions.php:526
+#@ jigoshop
+msgid "Postcode/Zip"
+msgstr ""
+
+#: jigoshop_functions.php:526
+#@ jigoshop
+msgid "Postcode"
+msgstr ""
+
+#: jigoshop_functions.php:529
+#@ jigoshop
+msgid "Update Totals"
+msgstr ""
+
+#: jigoshop_functions.php:560
+#@ jigoshop
+msgid "Login"
+msgstr ""
+
+#: jigoshop_functions.php:561
+#@ jigoshop
+msgid "Lost Password?"
+msgstr ""
+
+#: jigoshop_functions.php:576
+#@ jigoshop
+msgid "Already registered?"
+msgstr ""
+
+#: jigoshop_functions.php:576
+#@ jigoshop
+msgid "Click here to login"
+msgstr ""
+
+#: jigoshop_functions.php:594
+#@ jigoshop
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: jigoshop_functions.php:647
+#@ jigoshop
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: jigoshop_functions.php:670
+#: jigoshop_functions.php:755
+#@ jigoshop
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: jigoshop_functions.php:719
+#@ jigoshop
+msgid "Error 404"
+msgstr ""
+
+#: jigoshop_functions.php:759
+#@ jigoshop
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: jigoshop_functions.php:764
+#@ jigoshop
+msgid "Author: "
+msgstr ""
+
+#: jigoshop_functions.php:770
+#@ jigoshop
+msgid "Page"
+msgstr ""
+
+#: loop-attachment.php:21
+#, php-format
+#@ demomentsomtres
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: loop-attachment.php:23
+#, php-format
+#@ demomentsomtres
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: loop-attachment.php:32
+#, php-format
+#@ demomentsomtres
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr ""
+
+#: loop-attachment.php:43
+#, php-format
+#@ demomentsomtres
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: loop-attachment.php:53
+#, php-format
+#@ demomentsomtres
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: loop-attachment.php:56
+#@ demomentsomtres
+msgid "Link to full-size image"
+msgstr ""
+
+#: loop-attachment.php:63
+#: loop-attachment.php:111
+#: loop-page.php:39
+#: loop-single.php:52
+#: loop.php:100
+#: loop.php:124
+#: loop.php:167
+#@ demomentsomtres
+msgid "Edit"
+msgstr ""
+
+#: loop-attachment.php:105
+#: loop-page.php:38
+#: loop-single.php:30
+#: loop.php:146
+#@ demomentsomtres
+msgid "Pages:"
+msgstr ""
+
+#: loop-single.php:43
+#, php-format
+#@ demomentsomtres
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop-single.php:57
+#@ demomentsomtres
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: loop-single.php:58
+#@ demomentsomtres
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: loop.php:25
+#: loop.php:180
+#@ demomentsomtres
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: loop.php:26
+#: loop.php:181
+#@ demomentsomtres
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop.php:35
+#@ demomentsomtres
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop.php:60
+#: loop.php:95
+#: loop.php:96
+#@ demomentsomtres
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr ""
+
+#: loop.php:62
+#: loop.php:83
+#: loop.php:132
+#, php-format
+#@ demomentsomtres
+msgid "Permalink to %s"
+msgstr ""
+
+#: loop.php:82
+#, php-format
+#@ demomentsomtres
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: loop.php:93
+#@ demomentsomtres
+msgid "View Galleries"
+msgstr ""
+
+#: loop.php:93
+#: loop.php:96
+#@ demomentsomtres
+msgid "More Galleries"
+msgstr ""
+
+#: loop.php:96
+#@ demomentsomtres
+msgid "View posts in the Gallery category"
+msgstr ""
+
+#: loop.php:99
+#: loop.php:123
+#: loop.php:166
+#@ demomentsomtres
+msgid "Leave a comment"
+msgstr "Deixa un comentari"
+
+#: loop.php:99
+#: loop.php:123
+#: loop.php:166
+#@ demomentsomtres
+msgid "1 Comment"
+msgstr "1 comentari"
+
+#: loop.php:99
+#: loop.php:123
+#: loop.php:166
+#@ demomentsomtres
+msgid "% Comments"
+msgstr "% comentaris"
+
+#: loop.php:106
+#@ demomentsomtres
+msgctxt "asides category slug"
+msgid "asides"
+msgstr ""
+
+#: loop.php:153
+#, php-format
+#@ demomentsomtres
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr ""
+
+#: loop.php:162
+#, php-format
+#@ demomentsomtres
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr ""
+
+#: page-forum-statistics.php:24
+#@ bbpress
+msgid "<p>Here are the statistics and popular topics of our forums.</p>"
+msgstr ""
+
+#: page-forum-statistics.php:30
+#@ bbpress
+msgid "Registered Users"
+msgstr ""
+
+#: page-forum-statistics.php:35
+#@ bbpress
+msgid "Forums"
+msgstr ""
+
+#: page-forum-statistics.php:50
+#@ bbpress
+msgid "Topic Tags"
+msgstr ""
+
+#: page-forum-statistics.php:57
+#@ bbpress
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: page-forum-statistics.php:66
+#@ bbpress
+msgid "Hidden Topics"
+msgstr ""
+
+#: page-forum-statistics.php:77
+#@ bbpress
+msgid "Hidden Replies"
+msgstr ""
+
+#: page-forum-statistics.php:96
+#@ bbpress
+msgid "Popular Topics"
+msgstr ""
+
+#: search.php:14
+#, php-format
+#@ demomentsomtres
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:24
+#@ demomentsomtres
+msgid "Nothing Found"
+msgstr "No s'ha trobat"
+
+#: search.php:26
+#@ demomentsomtres
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: single-product-reviews.php:28
+#, php-format
+#@ jigoshop
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: single-product-reviews.php:28
+#@ jigoshop
+msgid "out of 5"
+msgstr ""
+
+#: single-product-reviews.php:30
+#, php-format
+#@ jigoshop
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: single-product-reviews.php:55
+#@ jigoshop
+msgid "Add Review"
+msgstr ""
+
+#: single-product-reviews.php:57
+#@ jigoshop
+msgid "Add a review"
+msgstr ""
+
+#: single-product-reviews.php:61
+#@ jigoshop
+msgid "Be the first to review "
+msgstr ""
+
+#: single-product-reviews.php:63
+#@ jigoshop
+msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: single-product-reviews.php:81
+#@ jigoshop
+msgid "Submit Review"
+msgstr ""
+
+#: single-product-reviews.php:84
+#@ jigoshop
+msgid "Rating"
+msgstr ""
+
+#: single-product-reviews.php:85
+#@ jigoshop
+msgid "Rate..."
+msgstr ""
+
+#: single-product-reviews.php:86
+#@ jigoshop
+msgid "Perfect"
+msgstr ""
+
+#: single-product-reviews.php:87
+#@ jigoshop
+msgid "Good"
+msgstr ""
+
+#: single-product-reviews.php:88
+#@ jigoshop
+msgid "Average"
+msgstr ""
+
+#: single-product-reviews.php:89
+#@ jigoshop
+msgid "Not that bad"
+msgstr ""
+
+#: single-product-reviews.php:90
+#@ jigoshop
+msgid "Very Poor"
+msgstr ""
+
+#: single-product-reviews.php:92
+#@ demomentsomtres
+msgctxt "noun"
+msgid "Your Review"
+msgstr ""
+
+#: single-reply.php:46
+#, php-format
+#@ bbpress
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#: tag.php:14
+#, php-format
+#@ demomentsomtres
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: taxonomy-topic-tag.php:18
+#, php-format
+#@ bbpress
+msgid "Topic Tag: %s"
+msgstr ""
+
+#: options.php:47
+#: options.php:51
+#@ demomentsomtres
+msgid "Style Options"
+msgstr ""
+
+#: options.php:52
+#@ demomentsomtres
+msgid "The following options allow you to apply basic customizations to your theme colors. In some cases however, you will need to edit CSS. <br /> This can be done from <a href=\"theme-editor.php\">stylesheet editor</a> or by navigating to Appearance &rarr; Editor."
+msgstr ""
+
+#: options.php:55
+#@ demomentsomtres
+msgid "Logo Style"
+msgstr ""
+
+#: options.php:56
+#@ demomentsomtres
+msgid "Display a custom image/logo image in place of title header."
+msgstr ""
+
+#: options.php:61
+#@ demomentsomtres
+msgid "Header Logo"
+msgstr ""
+
+#: options.php:62
+#@ demomentsomtres
+msgid "If you prefer to show a graphic logo in place of the header, you can upload or paste the URL here. Set the width and height below. <strong>Your logo should be resized prior to uploading</strong>"
+msgstr ""
+
+#: options.php:67
+#@ demomentsomtres
+msgid "Logo Width"
+msgstr ""
+
+#: options.php:68
+#@ demomentsomtres
+msgid "Width (in px) of Your logo."
+msgstr ""
+
+#: options.php:74
+#@ demomentsomtres
+msgid "Logo Height"
+msgstr ""
+
+#: options.php:75
+#@ demomentsomtres
+msgid "Height (in px) of Your logo."
+msgstr ""
+
+#: options.php:81
+#@ demomentsomtres
+msgid "Hide header images"
+msgstr ""
+
+#: options.php:82
+#@ demomentsomtres
+msgid "Hide the header"
+msgstr ""
+
+#: options.php:87
+#@ demomentsomtres
+msgid "Prevent big featured images to be shown in header"
+msgstr ""
+
+#: options.php:88
+#@ demomentsomtres
+msgid "Prevents showing whole width featured images on header"
+msgstr ""
+
+#: options.php:93
+#@ demomentsomtres
+msgid "Hide menu"
+msgstr ""
+
+#: options.php:94
+#@ demomentsomtres
+msgid "Hide the navigation menu"
+msgstr ""
+
+#: options.php:99
+#@ demomentsomtres
+msgid "Show breadcrumbs"
+msgstr ""
+
+#: options.php:100
+#@ demomentsomtres
+msgid "Show breadcrumbs below navigation bar. <br/>Requieres Wordpress SEO by Yoast to have the option actived."
+msgstr ""
+
+#: options.php:105
+#@ demomentsomtres
+msgid "Body Background"
+msgstr ""
+
+#: options.php:106
+#@ demomentsomtres
+msgid "Change the background CSS."
+msgstr ""
+
+#: options.php:111
+#@ demomentsomtres
+msgid "Sidebar Position"
+msgstr ""
+
+#: options.php:112
+#@ demomentsomtres
+msgid "Select a sidebar layout position (left or right). You can also select a wide page layout on a per-page basis."
+msgstr ""
+
+#: options.php:121
+#@ demomentsomtres
+msgid "Header (text) Color"
+msgstr ""
+
+#: options.php:122
+#@ demomentsomtres
+msgid "Header Colors."
+msgstr ""
+
+#: options.php:127
+#@ demomentsomtres
+msgid "Link Color"
+msgstr ""
+
+#: options.php:128
+#@ demomentsomtres
+msgid "Default hyperlink colors."
+msgstr ""
+
+#: options.php:133
+#@ demomentsomtres
+msgid "Main Body Typography"
+msgstr ""
+
+#: options.php:134
+#@ demomentsomtres
+msgid "Body Typography."
+msgstr ""
+
+#: options.php:140
+#@ demomentsomtres
+msgid "(H1) Heading Typography"
+msgstr ""
+
+#: options.php:141
+#@ demomentsomtres
+msgid "Heading typography."
+msgstr ""
+
+#: options.php:146
+#@ demomentsomtres
+msgid "(H2) Heading Typography"
+msgstr ""
+
+#: options.php:147
+#@ demomentsomtres
+msgid "Heading Two typography."
+msgstr ""
+
+#: options.php:153
+#@ demomentsomtres
+msgid "(H3) Heading Typography"
+msgstr ""
+
+#: options.php:154
+#@ demomentsomtres
+msgid "Heading Three typography."
+msgstr ""
+
+#: options.php:159
+#@ demomentsomtres
+msgid "(H4) Heading Typography"
+msgstr ""
+
+#: options.php:160
+#@ demomentsomtres
+msgid "Heading Four typography."
+msgstr ""
+
+#: options.php:165
+#@ demomentsomtres
+msgid "(H5) Heading Typography"
+msgstr ""
+
+#: options.php:166
+#@ demomentsomtres
+msgid "Heading Five typography."
+msgstr ""
+
+#: options.php:172
+#@ demomentsomtres
+msgid "Extra Header Text"
+msgstr ""
+
+#: options.php:173
+#@ demomentsomtres
+msgid "HTML or text can be inserted into the header. You might add twitter icons, badges, or a site announcement here."
+msgstr ""
+
+#: options.php:180
+#@ demomentsomtres
+msgid "Display Cart"
+msgstr ""
+
+#: options.php:181
+#@ demomentsomtres
+msgid "Jigoshop is installed. Would you like to show a mini cart here instead?"
+msgstr ""
+
+#: options.php:187
+#@ demomentsomtres
+msgid "Footer Fine Print"
+msgstr ""
+
+#: options.php:188
+#@ demomentsomtres
+msgid "HTML or text to be inserted into the very bottom after the widgets."
+msgstr ""
+
+#: options.php:193
+#@ demomentsomtres
+msgid "Footer Scripts"
+msgstr ""
+
+#: options.php:194
+#@ demomentsomtres
+msgid "Add custom footer scripts such as Google Analytics. Do not include the &lt;script&gt; tag. This is already done for you."
+msgstr ""
+
