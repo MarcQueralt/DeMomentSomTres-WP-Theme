@@ -55,16 +55,16 @@
  * @subpackage skeleton
  * @since skeleton 0.1
  */
-
 /*
  * Adapt to conform wordpress.org Theme directives - DeMomentSomTres
  */
-if ( ! isset( $content_width ) ) $content_width = 940;
-$args=array();
-add_theme_support( 'custom-background',$args );
+if (!isset($content_width))
+    $content_width = 940;
+$args = array();
+add_theme_support('custom-background', $args);
 /* DeMomentSomTres - final
 
-/* ----------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------- */
 /* Initialize the Options Framework
   /* http://wptheming.com/options-framework-theme/
   /*----------------------------------------------------------------------------------- */
@@ -81,7 +81,7 @@ if (!function_exists('optionsframework_init')) {
 }
 
 if (class_exists('jigoshop')) {
-    require_once (STYLESHEETPATH . '/jigoshop_functions.php');
+    require_once (TEMPLATEPATH . '/jigoshop_functions.php');
 }
 
 
@@ -104,11 +104,11 @@ if (!function_exists('optionsframework_custom_scripts')) {
                 jQuery('#use_logo_image').click(function() {
                     jQuery('#section-header_logo,#section-logo_width,#section-logo_height').fadeToggle(400);
                 });
-                        	
+                                	
                 if (jQuery('#use_logo_image:checked').val() !== undefined) {
                     jQuery('#section-header_logo,#section-logo_width,#section-logo_height').show();
                 }
-                        	
+                                	
             });
         </script>
 
@@ -260,11 +260,10 @@ if (!function_exists('skeleton_setup')):
         // custom headers. See skeleton_admin_header_style(), below.
         // add_custom_image_header('', 'skeleton_admin_header_style'); //DeMomentSomTres Deprecated -inici
         $args = array(
-            'wp-head-callback'=>'skeleton_admin_header_style',
+            'wp-head-callback' => 'skeleton_admin_header_style',
         );
-        add_theme_support( 'custom-header', $args ) ;
+        add_theme_support('custom-header', $args);
         //DeMomentSomTres Deprecated - final
-        
         // ... and thus ends the changeable header business.
         // Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
         register_default_headers(array(
@@ -1111,7 +1110,7 @@ if (!function_exists('st_comments')) :
                     /* ]]> */
                 </script>
 
-        <?php elseif (bbp_is_single_user_edit()) : ?>
+            <?php elseif (bbp_is_single_user_edit()) : ?>
 
                 <script type="text/javascript" charset="utf-8">
                     if ( window.location.hash == '#password' ) {
@@ -1322,6 +1321,15 @@ if (!function_exists('st_comments')) :
         if (in_array('portlligatsans', $t)):
             $stylesheet.=wp_enqueue_style('font-google-portlligat-sans', 'http://fonts.googleapis.com/css?family=Port+Lligat+Sans', '', '20120614');
         endif;
+        if (in_array('opensanscondensed', $t)):
+            $stylesheet.=wp_enqueue_style('font-google-opensanscondensed', 'http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300', '', '20120614');
+        endif;
+        if (in_array('muli', $t)):
+            $stylesheet.=wp_enqueue_style('font-google-muli', 'http://fonts.googleapis.com/css?family=Muli:300', '', '20120614');
+        endif;
+        if (in_array('carme', $t)):
+            $stylesheet.=wp_enqueue_style('font-google-carme', 'http://fonts.googleapis.com/css?family=Carme', '', '20120614');
+        endif;
         return $stylesheet;
     }
 
@@ -1334,6 +1342,7 @@ if (!function_exists('st_comments')) :
         $l = array(
             'arimo' => 'Arimo, Helvetica*',
             'opensans' => "Open Sans, Helvetica*",
+            'opensanscondensed' => "Open Sans Condensed, Helvetica*",
             'permanent' => "Permanent Marker, Helvetica*",
             'josefin' => "Josefin Sans, Helvetica*",
             'italiana' => "Italiana, Serif",
@@ -1341,6 +1350,8 @@ if (!function_exists('st_comments')) :
             'bangers' => "Bangers, Cursive",
             'portlligat' => "Port Lligat, Serif",
             'portlligatsans' => "Port Lligat Sans, Sans Serif",
+            'muli'=>"Muli, Sans Serif",
+            'carme'=>"Carme, Sans Serif",
         );
         $llista = array_merge($l, $llista);
         return $llista;
@@ -1348,5 +1359,6 @@ if (!function_exists('st_comments')) :
 
     // Afegir fonts de google a les opcions del men&uacute;
     add_filter('of_recognized_font_faces', 'demomentsomtres_afegir_google_fonts');
+
 
     

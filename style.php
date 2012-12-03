@@ -1,5 +1,46 @@
 <?php
 
+/**
+ * Converts from font attribute to its css font-family
+ * @param string $typography the typography attribute
+ * @return string the font-family css
+ * @since 1.4
+ */
+function dmst_font_style($typography) {
+    $fontstack='sans-serif';
+    if ($typography == "helvetica") {
+        $fontstack = $helvetica;
+    } elseif ($typography == "opensans") {
+        $fontstack = $opensans;
+    } elseif ($typography == "permanent") {
+        $fontstack = $permanent;
+    } elseif ($typography == "arimo") {
+        $fontstack = $arimo;
+    } elseif ($typography == "josefin") {
+        $fontstack = $josefin;
+    } elseif ($typography == "italiana") {
+        $fontstack = $italiana;
+    } elseif ($typography == "questrial") {
+        $fontstack = $questrial;
+    } elseif ($typography == "bangers") {
+        $fontstack = $bangers;
+    } elseif ($typography == "portlligat") {
+        $fontstack = $portlligat;
+    } elseif ($typography == "portlligatsans") {
+        $fontstack = $portlligatsans;
+    } elseif ($typography == "arial") {
+        $fontstack = $arial;
+    } elseif ($typography == "georgia") {
+        $fontstack = $georgia;
+    } elseif ($typography == "cambria") {
+        $fontstack = $cambria;
+    } elseif ($typography == "tahoma") {
+        $fontstack = $tahoma;
+    } elseif ($typography == "palatino") {
+        $fontstack = $palatino;
+    }    
+    return $fontstack;
+}
 // Modificacions per afegir-hi les fonts necessàries
 if (extension_loaded('zlib')) {
     ob_start('ob_gzhandler');
@@ -29,6 +70,9 @@ $questrial = "'Questrial', sans-serif";
 $bangers = "'Bangers', cursive";
 $portlligatsans="'Port Lligat Sans', sans-serif";
 $portlligat="'Port Lligat Slab', serif";
+$opensanscondensed = '"Open Sans Condensed", Helvetica, Arial, sans-serif';
+$carme='"Carme", sans-serif';
+$muli='"Muli", sans-serif';
 
 // Begin theme options
 $body_background = of_get_option('body_background');
@@ -36,37 +80,7 @@ $typography = of_get_option('body_typography');
 // Main Body Styles
 echo 'body {';
 if ($typography) {
-    if ($typography[face] == "helvetica") {
-        $fontstack = $helvetica;
-    } elseif ($typography[face] == "opensans") {
-        $fontstack = $opensans;
-    } elseif ($typography[face] == "permanent") {
-        $fontstack = $permanent;
-    } elseif ($typography[face] == "arimo") {
-        $fontstack = $arimo;
-    } elseif ($typography[face] == "josefin") {
-        $fontstack = $josefin;
-    } elseif ($typography[face] == "italiana") {
-        $fontstack = $italiana;
-    } elseif ($typography[face] == "questrial") {
-        $fontstack = $questrial;
-    } elseif ($typography[face] == "bangers") {
-        $fontstack = $bangers;
-    } elseif ($typography[face] == "portlligat") {
-        $fontstack = $portlligat;
-    } elseif ($typography[face] == "portlligatsans") {
-        $fontstack = $portlligatsans;
-    } elseif ($typography[face] == "arial") {
-        $fontstack = $arial;
-    } elseif ($typography[face] == "georgia") {
-        $fontstack = $georgia;
-    } elseif ($typography[face] == "cambria") {
-        $fontstack = $cambria;
-    } elseif ($typography[face] == "tahoma") {
-        $fontstack = $tahoma;
-    } elseif ($typography[face] == "palatino") {
-        $fontstack = $palatino;
-    }
+    $fontstack = dmst_font_style($typography[face]);
     echo 'color:' . $typography[color] . ';';
     echo 'font-size:' . $typography[size] . ';';
     echo 'font-family:' . $fontstack . ';';
@@ -90,37 +104,7 @@ $h1 = of_get_option('h1_typography');
 
 echo 'h1 {';
 if ($h1) {
-    if ($h1[face] == "helvetica") {
-        $fontstack = $helvetica;
-    } elseif ($h1[face] == "arimo") {
-        $fontstack = $arimo;
-    } elseif ($h1[face] == "opensans") {
-        $fontstack = $opensans;
-    } elseif ($h1[face] == "permanent") {
-        $fontstack = $permanent;
-    } elseif ($h1[face] == "josefin") {
-        $fontstack = $josefin;
-    } elseif ($h1[face] == "italiana") {
-        $fontstack = $italiana;
-    } elseif ($h1[face] == "questrial") {
-        $fontstack = $questrial;
-    } elseif ($h1[face] == "bangers") {
-        $fontstack = $bangers;
-    } elseif ($h1[face] == "portlligat") {
-        $fontstack = $portlligat;
-    } elseif ($h1[face] == "portlligatsans") {
-        $fontstack = $portlligatsans;
-    } elseif ($h1[face] == "arial") {
-        $fontstack = $arial;
-    } elseif ($h1[face] == "georgia") {
-        $fontstack = $georgia;
-    } elseif ($h1[face] == "cambria") {
-        $fontstack = $cambria;
-    } elseif ($h1[face] == "tahoma") {
-        $fontstack = $tahoma;
-    } elseif ($h1['face'] == "palatino") {
-        $fontstack = $palatino;
-    }
+    $fontstack=  dmst_font_style($h1['face']);
     echo 'color:' . $h1[color] . ';';
     echo 'font-size:' . $h1[size] . ';';
     echo 'font-family:' . $fontstack . ';';
@@ -134,37 +118,7 @@ $h2 = of_get_option('h2_typography');
 
 echo 'h2 {';
 if ($h2) {
-    if ($h2[face] == "helvetica") {
-        $fontstack = $helvetica;
-    } elseif ($h2[face] == "opensans") {
-        $fontstack = $opensans;
-    } elseif ($h2[face] == "permanent") {
-        $fontstack = $permanent;
-    } elseif ($h2[face] == "arimo") {
-        $fontstack = $arimo;
-    } elseif ($h2[face] == "josefin") {
-        $fontstack = $josefin;
-    } elseif ($h2[face] == "italiana") {
-        $fontstack = $italiana;
-    } elseif ($h2[face] == "questrial") {
-        $fontstack = $questrial;
-    } elseif ($h2[face] == "bangers") {
-        $fontstack = $bangers;
-    } elseif ($h2[face] == "portlligat") {
-        $fontstack = $portlligat;
-    } elseif ($h2[face] == "portlligatsans") {
-        $fontstack = $portlligatsans;
-    } elseif ($h2[face] == "arial") {
-        $fontstack = $arial;
-    } elseif ($h2[face] == "georgia") {
-        $fontstack = $georgia;
-    } elseif ($h2[face] == "cambria") {
-        $fontstack = $cambria;
-    } elseif ($h2[face] == "tahoma") {
-        $fontstack = $tahoma;
-    } elseif ($h2[face] == "palatino") {
-        $fontstack = $palatino;
-    }
+    $fontstack=  dmst_font_style($h2['face']);
     echo 'color:' . $h2[color] . ';';
     echo 'font-size:' . $h2[size] . ';';
     echo 'font-family:' . $fontstack . ';';
@@ -178,37 +132,7 @@ $h3 = of_get_option('h3_typography');
 
 echo 'h3 {';
 if ($h3) {
-    if ($h3[face] == "helvetica") {
-        $fontstack = $helvetica;
-    } elseif ($h3[face] == "arimo") {
-        $fontstack = $arimo;
-    } elseif ($h3[face] == "josefin") {
-        $fontstack = $josefin;
-    } elseif ($h3[face] == "opensans") {
-        $fontstack = $opensans;
-    } elseif ($h3[face] == "permanent") {
-        $fontstack = $permanent;
-    } elseif ($h3[face] == "italiana") {
-        $fontstack = $italiana;
-    } elseif ($h3[face] == "questrial") {
-        $fontstack = $questrial;
-    } elseif ($h3[face] == "bangers") {
-        $fontstack = $bangers;
-    } elseif ($h3[face] == "portlligat") {
-        $fontstack = $portlligat;
-    } elseif ($h3[face] == "portlligatsans") {
-        $fontstack = $portlligatsans;
-    } elseif ($h3[face] == "arial") {
-        $fontstack = $arial;
-    } elseif ($h3[face] == "georgia") {
-        $fontstack = $georgia;
-    } elseif ($h3[face] == "cambria") {
-        $fontstack = $cambria;
-    } elseif ($h3[face] == "tahoma") {
-        $fontstack = $tahoma;
-    } elseif ($h3[face] == "palatino") {
-        $fontstack = $palatino;
-    }
+    $fontstack=  dmst_font_style($h3['face']);
     echo 'color:' . $h3[color] . ';';
     echo 'font-size:' . $h3[size] . ';';
     echo 'font-family:' . $fontstack . ';';
@@ -222,37 +146,7 @@ $h4 = of_get_option('h4_typography');
 
 echo 'h4 {';
 if ($h4) {
-    if ($h4[face] == "helvetica") {
-        $fontstack = $helvetica;
-    } elseif ($h4[face] == "arimo") {
-        $fontstack = $arimo;
-    } elseif ($h4[face] == "josefin") {
-        $fontstack = $josefin;
-    } elseif ($h4[face] == "opensans") {
-        $fontstack = $opensans;
-    } elseif ($h4[face] == "permanent") {
-        $fontstack = $permanent;
-    } elseif ($h4[face] == "italiana") {
-        $fontstack = $italiana;
-    } elseif ($h4[face] == "questrial") {
-        $fontstack = $questrial;
-    } elseif ($h4[face] == "bangers") {
-        $fontstack = $bangers;
-    } elseif ($h4[face] == "portlligat") {
-        $fontstack = $portlligat;
-    } elseif ($h4[face] == "portlligatsans") {
-        $fontstack = $portlligatsans;
-    } elseif ($h4[face] == "arial") {
-        $fontstack = $arial;
-    } elseif ($h4[face] == "georgia") {
-        $fontstack = $georgia;
-    } elseif ($h4[face] == "cambria") {
-        $fontstack = $cambria;
-    } elseif ($h4[face] == "tahoma") {
-        $fontstack = $tahoma;
-    } elseif ($h4[face] == "palatino") {
-        $fontstack = $palatino;
-    }
+    $fontstack=  dmst_font_style($h4['face']);
     echo 'color:' . $h4[color] . ';';
     echo 'font-size:' . $h4[size] . ';';
     echo 'font-family:' . $fontstack . ';';
@@ -266,37 +160,7 @@ $h5 = of_get_option('h5_typography');
 
 echo 'h5 {';
 if ($h5) {
-    if ($h5[face] == "helvetica") {
-        $fontstack = $helvetica;
-    } elseif ($h5[face] == "arimo") {
-        $fontstack = $arimo;
-    } elseif ($h5[face] == "josefin") {
-        $fontstack = $josefin;
-    } elseif ($h5[face] == "opensans") {
-        $fontstack = $opensans;
-    } elseif ($h5[face] == "permanent") {
-        $fontstack = $permanent;
-    } elseif ($h5[face] == "italiana") {
-        $fontstack = $italiana;
-    } elseif ($h5[face] == "questrial") {
-        $fontstack = $questrial;
-    } elseif ($h5[face] == "bangers") {
-        $fontstack = $bangers;
-    } elseif ($h5[face] == "portlligat") {
-        $fontstack = $portlligat;
-    } elseif ($h5[face] == "portlligatsans") {
-        $fontstack = $portlligatsans;
-    } elseif ($h5[face] == "arial") {
-        $fontstack = $arial;
-    } elseif ($h5[face] == "georgia") {
-        $fontstack = $georgia;
-    } elseif ($h5[face] == "cambria") {
-        $fontstack = $cambria;
-    } elseif ($h5[face] == "tahoma") {
-        $fontstack = $tahoma;
-    } elseif ($h5[face] == "palatino") {
-        $fontstack = $palatino;
-    }
+    $fontstack=  dmst_font_style($h5['face']);
     echo 'color:' . $h5[color] . ';';
     echo 'font-size:' . $h5[size] . ';';
     echo 'font-family:' . $fontstack . ';';

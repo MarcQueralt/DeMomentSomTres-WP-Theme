@@ -7,7 +7,7 @@ Tested up to: 3.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.3
+Version: 1.4
 
 A Theme based on SimpleThemes Skeleton
 
@@ -27,6 +27,13 @@ N/A
 N/A
 
 == Changelog ==
+
+= 1.4 =
+* New fonts added: OpenSansCondensedLight, Muli, Carme
+* Bug 14001: jigoshop functions conflict
+
+= 1.3 =
+* Minor changes
 
 = 1.2 =
 * Header Bottom Margin controlled from the dashboard
