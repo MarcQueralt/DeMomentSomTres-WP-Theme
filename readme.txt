@@ -7,7 +7,7 @@ Tested up to: 3.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.4
+Version: 1.4.1
 
 A Theme based on SimpleThemes Skeleton
 
@@ -27,6 +27,9 @@ N/A
 N/A
 
 == Changelog ==
+
+= 1.4.1 =
+* Bug 14101: getstyles.php not showing
 
 = 1.4 =
 * New fonts added: OpenSansCondensedLight, Muli, Carme
