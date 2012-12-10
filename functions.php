@@ -104,11 +104,11 @@ if (!function_exists('optionsframework_custom_scripts')) {
                 jQuery('#use_logo_image').click(function() {
                     jQuery('#section-header_logo,#section-logo_width,#section-logo_height').fadeToggle(400);
                 });
-                                	
+                                        	
                 if (jQuery('#use_logo_image:checked').val() !== undefined) {
                     jQuery('#section-header_logo,#section-logo_width,#section-logo_height').show();
                 }
-                                	
+                                        	
             });
         </script>
 
@@ -1350,8 +1350,8 @@ if (!function_exists('st_comments')) :
             'bangers' => "Bangers, Cursive",
             'portlligat' => "Port Lligat, Serif",
             'portlligatsans' => "Port Lligat Sans, Sans Serif",
-            'muli'=>"Muli, Sans Serif",
-            'carme'=>"Carme, Sans Serif",
+            'muli' => "Muli, Sans Serif",
+            'carme' => "Carme, Sans Serif",
         );
         $llista = array_merge($l, $llista);
         return $llista;
@@ -1360,5 +1360,7 @@ if (!function_exists('st_comments')) :
     // Afegir fonts de google a les opcions del men&uacute;
     add_filter('of_recognized_font_faces', 'demomentsomtres_afegir_google_fonts');
 
-
-    
+    // @since 1.5
+    if (function_exists('DeMomentSomTres_Address')) {
+        add_action('st_above_header', 'DeMomentSomTres_Address');
+    }
