@@ -12,13 +12,13 @@ function optionsframework_option_name() {
     //$themename = get_theme_data(STYLESHEETPATH . '/style.css'); //DeMoMentSomTres Deprecated
     $themename = wp_get_theme(STYLESHEETPATH . '/style.css');
     $themename = $themename['Name'];
-    $themename = preg_replace("/\W/", "", strtolower($themename));
+    //$themename = preg_replace("/\W/", "", strtolower($themename));//DeMomentSomTres v1.6-
+    $elements = explode('/',$themename);//DeMomentSomTres v1.6+
+    $themename=$elements[count($elements)-2];//DeMomentSomTres v1.6+
 
     $optionsframework_settings = get_option('optionsframework');
     $optionsframework_settings['id'] = $themename;
     update_option('optionsframework', $optionsframework_settings);
-
-    // echo $themename;
 }
 
 /**
