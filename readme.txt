@@ -7,7 +7,7 @@ Tested up to: 3.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.6
+Version: 1.7
 
 A Theme based on SimpleThemes Skeleton
 
@@ -29,6 +29,10 @@ N/A
 N/A
 
 == Changelog ==
+= 1.7 =
+* Bug: first paragraf in one_half unaligned to top.
+* child theme styles call optimization
+
 = 1.6 =
 * themename too long problem in options.php
 

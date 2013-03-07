@@ -2,7 +2,7 @@
 Theme Name: DeMomentSomTres
 Theme URI: htttp://www.demomentsomtres.com/catala
 Description: DeMomentSomTres base theme adapted from Skeleton by http://www.simplethemes.com
-Version: 1.6
+Version: 1.7
 Author: DeMomentSomTres 
 Author URI: http://www.demomentsomtres.com
 License: GPL
@@ -11,6 +11,7 @@ Tags: white, two-columns, flexible-width, translation-ready, full-width-template
 Change History:
 1.3 - Tag Archive shows all type posts
 1.6 - Bug: ThemeName too long
+1.7 - Correccio paràgraf inicial buit
 */
 
 
@@ -1893,5 +1894,8 @@ input[type="checkbox"] {display: inline; }
 .bypostauthor,.gallery-caption {}
 
 /* @end */
-
-
+/* @group 1.7 */
+p:empty {
+    margin-bottom:0;
+}
+/* @end 1.7 */
